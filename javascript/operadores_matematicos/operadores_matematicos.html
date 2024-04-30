@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a, b, sum, res, mult, div, resid, poten; 
+
+        //pedir datos al usuario: 
+        a = parseInt(prompt('Ingrese el primer digito'));
+        b = parseInt(prompt('Ingrese el segundo digito'));
+
+        //suma:
+        sum = a + b;
+        //resta:
+        res = a - b;
+        //multiplicacion:
+        mult = a * b;
+        //division:
+        div = a / b ;
+        //residuos:
+        resid = a % b;
+        //potencia:
+        poten = a ** b;
+
+        document.write('La suma da: ', sum);
+        document.write('<br>');
+        document.write('La resta da: ', res);
+        document.write('<br>');
+        document.write('La multiplicacion da: ', mult);
+        document.write('<br>');
+        document.write('La division da: ', div);
+        document.write('<br>');
+        document.write('El residuo da: ', resid);
+        document.write('<br>');
+        document.write('La potencia da: ', poten);
+    </script>
+</body>
+</html>
